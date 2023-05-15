@@ -2,7 +2,8 @@ import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 import { Experiencia } from '../model/experiencia';
-import { environment } from 'src/enviroments/environmet.pord';
+import { environment } from 'src/enviroments/environment';
+
 
 @Injectable({
   providedIn: 'root'
